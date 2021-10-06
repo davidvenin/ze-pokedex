@@ -11,6 +11,7 @@ export const Home = () => {
   return (
     <div>
       Homepage
+      {/* should display the list of all pokemons with a components List */}
     </div>
   ); 
 };

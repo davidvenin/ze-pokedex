@@ -10,6 +10,8 @@ const App: FunctionComponent = () => {
     <div>
       <h1>Pokedex</h1>
       <Router>
+        {/* adding exact will only render the home with exact path "/" */}
+        {/* if not using exact, homepage will also render on pokemon page */}
         <Route exact path="/" component={Home} />
         <Route path="/pokemon/:pokemonId" component={Pokemon} />
       </Router>
