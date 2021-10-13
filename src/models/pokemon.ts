@@ -13,6 +13,9 @@ export interface PokemonDetails {
   height: number;
   weight: number;
   image: string;
+  sprites: {
+    front_shiny: string;
+  }
 }
 
 export interface Pokemon {
